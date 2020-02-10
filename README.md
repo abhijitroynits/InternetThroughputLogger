@@ -2,8 +2,7 @@
 
 Speedtest is a CLI for testing internet bandwidth using **speedtest.net**.
 
-Because, XFinity Speed Test(https://speedtest.xfinity.com/) only displays instantaneous download throughputs, I assembled a script to collect 
-these values over a period of time(12 minutues for 30 iterations).
+Because, XFinity Speed Test(https://speedtest.xfinity.com/) only displays instantaneous download throughputs, I assembled a script to collect these values over a period of time(12 minutes for 30 iterations).
 
 The first step is to pip install the ```speedtest-cli``` in your python environment:
 ```
@@ -15,6 +14,8 @@ For gathering more bandwidth information, the provided Python script(```wifi_spe
   $speedtest-cli --simple
 ```
 is run and the required (non-verbose) outputs are stored in a log file.
+
+Also, the time taken to perform the ping(often in milliseconds) can't be ignored in the overall scheme of things. Thus, adding delay to the processing loop.
 
 The output of the above command looks like:
 ```
