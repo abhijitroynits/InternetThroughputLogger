@@ -15,7 +15,7 @@ For gathering more bandwidth information, the provided Python script(```wifi_spe
 ```
 is run and the required (non-verbose) outputs are stored in a log file.
 
-Also, the time taken to perform the ping(often in milliseconds) can't be ignored in the overall scheme of things. Thus, adding delay to the processing loop.
+Also, the time taken to perform the ping(often in milliseconds) can't be ignored in the overall scheme of things. This adds a delay factor to the processing loop.
 
 The output of the above command looks like:
 ```
