@@ -37,4 +37,4 @@ The output of the above command looks like:
 ***_Possibility of future work_***:
   > - Better data structures can be decided to improve space-time complexity.
   > - A mobile app (irrespective of WiFi service provider) can be developed to log upload/download throughputs over a period of time.
-  > - Huge scope of QoS improvement by monitoring logs in WiFi hotspots such as train stations, airports, cafeterias etc.
+  > - Huge scope of QoS improvement by round-the-clock internet speed monitoring in WiFi hotspots such as train stations, airports, cafeterias etc.
