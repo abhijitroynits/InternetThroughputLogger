@@ -16,6 +16,14 @@ For gathering more bandwidth information, the provided Python script(```wifi_spe
 ```
 is run and the required (non-verbose) outputs are stored in a log file.
 
+The output of the above command looks like:
+```
+  Ping: 22.941 ms
+  Download: 29.43 Mbit/s
+  Upload: 2.51 Mbit/s
+```
+
+
 ***_Utility of the script_***: 
   > It can be used to compare and contrast the actual DL/UL speeds with those claimed by the ISPs. 
   
